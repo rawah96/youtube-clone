@@ -15,7 +15,6 @@ function Video({image, title, channel, views, timestamp, channelImage}) {
                     <p>{views} . {timestamp}</p>
                 </div>
             </div>
-
         </div>
     )
 }
