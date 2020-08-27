@@ -1,0 +1,25 @@
+.search-pg {
+    flex: 0.8;
+    background-color: #f9f9f9;
+    padding-right: 20px 20px;
+}
+
+.filter-icon {
+    display: flex;
+    align-items: center;
+    color: #606060;
+    font-size: xx-small !important;
+    cursor: pointer;
+}
+
+.filter-icon > h2 {
+    margin-left: 10px;
+}
+
+.search-pg > hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

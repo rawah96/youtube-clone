@@ -1,0 +1,32 @@
+.channelRow {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    cursor: pointer;
+}
+
+/* LR --> 10px, TB --> 60px or the other way?*/
+.channelrow-logo{
+    height: 120px !important;
+    width: 120px !important;
+    margin: 10px 60px;
+    border: 1px solid rgb(238, 229, 229);
+}
+
+.channelRow-text {
+    display: flex;
+    flex-direction: column;
+}
+
+/* target paragraph */
+.channelRow-text > p {
+    color: #606060;
+    font-size: small !important;
+}
+
+.channelRow-text > h4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
