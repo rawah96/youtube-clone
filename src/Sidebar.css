@@ -1,0 +1,12 @@
+.sidebar {
+    flex:0.2;
+}
+
+/* everything in sidebar that's hr .. do the following */
+.sidebar > hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

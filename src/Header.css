@@ -1,0 +1,59 @@
+/* All children by default display in row..*/
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    /* Make position sticky - always be on top of everything..*/
+    position: sticky;
+    top:0;
+    background-color: white;
+    z-index: 100;
+}
+
+.header-logo {
+    height: 20px;
+    object-fit: contain;
+    margin-left: 20px;
+}
+
+.header-logo:hover {
+    cursor: pointer;
+}
+
+.first, .second{
+    display: flex;
+    align-items: center;
+}
+
+.second {
+    width: 40%;
+    border: 1px solid grey;
+}
+
+.icon {
+    margin-right: 15px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+/* target the child of .second class*/
+/* flex: 1 --> use as much room as you can have inside the container*/
+.second > input {
+    flex: 1;
+    border: none;
+}
+
+.input-button {
+    width: 50px !important;
+    background-color: #fafafa;
+    border-left: 1px solid lightgrey;
+    color: grey;
+    cursor: pointer;
+}
+
+.input-button:hover {
+    background-color:rgb(104, 102, 102);
+}
