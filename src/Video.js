@@ -1,12 +1,13 @@
 import React from 'react'
 import Avatar from '@material-ui/core/Avatar';
+import './Video.css'
 /* video components that takes a 1. title 2. channel 3. # of views
 4. time stamp 5. display img 6. channel img
 */
 function Video({image, title, channel, views, timestamp, channelImage}) {
     return (
         <div className="video">
-            <img src={image} alt=""/>
+            <img src={image} alt="" className="thumbnail"/>
             <div className="vid-info">
                 <Avatar className="vid-avatar" alt={channel} src={channelImage}/>
                 <div className="vid-text">

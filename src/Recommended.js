@@ -7,7 +7,7 @@ function Recommended() {
     return (
         <div className="recommended">
             <h2>Recommended</h2>
-            <div className='"recommended-vids'>
+            <div className="recommended-vids">
                 <Video 
                 image={logo}
                 title="Learn reactjs!"
