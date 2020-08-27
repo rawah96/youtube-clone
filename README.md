@@ -1,4 +1,4 @@
-This web app was made using reactjs and material UI. 
+This web app was made using reactjs and material UI, and deployed to github pages. 
 
 It implements the basic features in youtube. 
 
